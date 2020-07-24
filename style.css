@@ -9,17 +9,19 @@
   clear: both;
 }
 header {
-	width: 90%;
+	width: 100%;
 	padding: 20px 0;
   margin: 0 auto;
   text-align: center;
 }
-header .headline {
-  font-size: 32px;
+
+nav{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
 }
 .nav-list {
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 0 auto;
 }
 .nav-list-item {
@@ -27,41 +29,83 @@ header .headline {
   display: inline-block;
   margin: 0 20px;
 }
-.main-visual{
-	width: 100%;
-	height: 300px;
-}
 .main{
-	width: 840px;
-	/*hrightを削除*/
-	margin: 0 auto;
+	width: 800px;
+	margin: 50px auto;
 }
-.footer{
-	width: 100%;
-	height: 120px;
-}
-.header-top {
-  width: 100%; /* 横幅いっぱい */
-  height: 70px; /* 高さ100px */
-}
-.header-bottom {
-  width: 100%; /* 横幅いっぱい */
-  height: 50px; /* 高さ100px */
-}
-.main-visual-content {
-  width: 350px; /* 横幅350px */
-  height: 300px; /* 親の高さに揃える */
-}
-.blog {
-  width: 600px; /* 横幅600px */
-  height: 1400px; /* 高さ600px */
+.g1{
+  background-color:#e6ffe9;
+  width:200px;
+  height:200px;
   float:left;
 }
-.sidebar {
-  width: 240px; /* 横幅240px */
-  height: 1400px; /* 高さ600px */
+.g2{
+  background-color:#cdffd3;
+  width:200px;
+  height:200px;
   float:left;
 }
+.g3{
+  background-color:#aeffbd;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.g4{
+  background-color:#93ffab;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.y1{
+  background-color:#f3ffd8;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.y2{
+  background-color:#edffbe;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.y3{
+  background-color:#e9ffa5;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.y4{
+  background-color:#e4ff8d;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.b1{
+  background-color:#d9e5ff;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.b2{
+  background-color:#bad3ff;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.b3{
+  background-color:#a4c6ff;
+  width:200px;
+  height:200px;
+  float:left;
+}
+.b4{
+  background-color:#8eb8ff;
+  width:200px;
+  height:200px;
+  float:left;
+}
+
 footer{
   width:100%;
   height:120px;
